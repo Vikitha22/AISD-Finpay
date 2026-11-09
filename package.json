@@ -1,0 +1,15 @@
+{
+  "name": "finpay",
+  "version": "1.0.0",
+  "description": "FinPay Campus Digital Wallet and Payment System",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "test:server": "npm --prefix server test",
+    "build:server": "npm --prefix server run build",
+    "build:client": "npm --prefix client run build",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "author": "FinPay Engineering Team",
+  "license": "ISC"
+}
